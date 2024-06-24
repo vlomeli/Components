@@ -1,4 +1,8 @@
-/* src/AboutTeam.css */
+/* AboutTeam.css */
+
+h1 {
+  text-align: center;
+}
 .about-team {
   text-align: center;
   padding: 20px;

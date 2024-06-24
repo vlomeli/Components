@@ -1,24 +1,31 @@
 import React from "react";
 import "./AboutTeam.css";
+import pfp from "../images/pfp.png";
 
 const teamMembers = [
   {
     name: "Alice Johnson",
     role: "Project Manager",
     bio: "Alice has over 10 years of experience in project management and loves leading teams to success.",
-    image: "alice.jpg",
+    image: pfp,
   },
   {
     name: "Bob Smith",
     role: "Lead Developer",
     bio: "Bob is a full-stack developer with a passion for creating innovative solutions.",
-    image: "bob.jpg",
+    image: pfp,
   },
   {
     name: "Carol White",
     role: "UI/UX Designer",
     bio: "Carol designs with the user in mind and creates beautiful, intuitive interfaces.",
-    image: "carol.jpg",
+    image: pfp,
+  },
+  {
+    name: "Carol White",
+    role: "UI/UX Designer",
+    bio: "Carol designs with the user in mind and creates beautiful, intuitive interfaces.",
+    image: pfp,
   },
 ];
 
