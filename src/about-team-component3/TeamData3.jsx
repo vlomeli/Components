@@ -1,5 +1,5 @@
 import React from "react";
-import "./AboutTeam2.css";
+import "./AboutTeam3.css";
 import pfp from "../images/pfp.png";
 
 const teamMembers = [
@@ -29,23 +29,22 @@ const teamMembers = [
   },
 ];
 
-const TeamData2 = () => {
+const TeamData3 = () => {
   return (
-    <div className="about-team2">
-      <h2>Option 2</h2>
-      <div className="team-members2">
+    <div className="about-team3">
+      <h2>Option 3</h2>
+      <div className="team-members3">
         {teamMembers.map((member, index) => (
-          <div key={index} className="team-member2">
+          <div key={index} className="team-member3">
             <img
               src={member.image}
               alt={member.name}
-              className="member-image2"
+              className="member-image3"
             />
-            <div className="member-info2">
-              <h3>
-                {member.name} - {member.role}
-              </h3>
-              <p className="bio2">{member.bio}</p>
+            <div className="member-info3">
+              <h3>{member.name}</h3>
+              <p className="role3">{member.role}</p>
+              <p className="bio3">{member.bio}</p>
             </div>
           </div>
         ))}
@@ -54,4 +53,4 @@ const TeamData2 = () => {
   );
 };
 
-export default TeamData2;
+export default TeamData3;

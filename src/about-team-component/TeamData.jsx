@@ -32,7 +32,7 @@ const teamMembers = [
 const TeamData = () => {
   return (
     <div className="about-team">
-      <h2>About the Team</h2>
+      <h2>Option 1</h2>
       <div className="team-members">
         {teamMembers.map((member, index) => (
           <div key={index} className="team-member">
